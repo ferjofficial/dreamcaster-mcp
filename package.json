@@ -1,7 +1,7 @@
 {
   "name": "dreamcaster-mcp",
   "version": "0.1.0",
-  "description": "Connect Claude, Cursor and other MCP clients to your private Dreamcaster dream journal.",
+  "description": "Bridge personal AI assistants to Dreamcaster, the human-verified, privacy-first lucid dreaming platform for sovereign individuals.",
   "type": "module",
   "bin": {
     "dreamcaster-mcp": "bin/dreamcaster-mcp.mjs"

@@ -1,8 +1,8 @@
 # dreamcaster-mcp
 
-Connect Claude Desktop, Cursor and other [Model Context Protocol](https://modelcontextprotocol.io) clients to your private [Dreamcaster](https://dreamcaster.xyz) dream journal.
+Bridge personal AI assistants to [Dreamcaster](https://dreamcaster.xyz), the human-verified, privacy-first lucid dreaming platform for sovereign individuals. Document dreams, receive interpretations, generate visuals, track recurring patterns, and more.
 
-Tell your assistant about last night's dream. It runs Dreamcaster's proprietary interpretation engine, renders 5 candidate dreamscapes for you to choose from, lets you finalize the title and choose **Private** or **Public** before publishing, and can search your past dreams for recurring motifs.
+Tell your assistant about last night's dream. It runs Dreamcaster's proprietary interpretation engine, renders 5 candidate dreamscapes for you to choose from, lets you finalize the title and choose **Private** or **Public** before publishing, and searches your past dreams for recurring patterns.
 
 ## What you need
 
