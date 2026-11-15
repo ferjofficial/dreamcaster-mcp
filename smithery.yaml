@@ -1,0 +1,22 @@
+# Smithery configuration for dreamcaster-mcp
+# https://smithery.ai/docs/config
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - apiKey
+    properties:
+      apiKey:
+        type: string
+        description: "Your Dreamcaster Agent Key from https://dreamcaster.xyz/settings (starts with dc_live_)"
+  commandFunction:
+    |
+    (config) => ({
+      command: 'npx',
+      args: ['-y', 'dreamcaster-mcp'],
+      env: {
+        DREAMCASTER_API_KEY: config.apiKey
+      }
+    })

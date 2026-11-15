@@ -1,0 +1,29 @@
+{
+  "name": "dreamcaster-mcp",
+  "version": "0.1.0",
+  "description": "Connect Claude, Cursor and other MCP clients to your private Dreamcaster dream journal.",
+  "type": "module",
+  "bin": {
+    "dreamcaster-mcp": "bin/dreamcaster-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "PRIVACY_ARCHITECTURE.md",
+    "smithery.yaml"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dreams",
+    "dream-journal",
+    "lucid-dreaming",
+    "claude",
+    "farcaster"
+  ],
+  "homepage": "https://dreamcaster.xyz/agents",
+  "license": "MIT"
+}
